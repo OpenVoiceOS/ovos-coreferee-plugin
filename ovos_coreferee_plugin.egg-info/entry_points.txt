@@ -1,0 +1,8 @@
+[intentbox.coreference]
+ovos-coreferee-plugin = ovos_coreferee.opm:CorefereeSolver
+
+[neon.plugin.text]
+ovos-utterance-coreferee-normalizer = ovos_coreferee.opm:CorefereeNormalizerPlugin
+
+[opm.triples]
+ovos-spacy-triples-plugin = ovos_coreferee.triples:SpacyTriplesExtractor

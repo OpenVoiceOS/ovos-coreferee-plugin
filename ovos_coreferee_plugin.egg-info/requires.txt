@@ -1,0 +1,3 @@
+spacy
+coreferee
+ovos-plugin-manager
