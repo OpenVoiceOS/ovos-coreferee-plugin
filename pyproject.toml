@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ovos-coreferee-plugin"
+dynamic = ["version"]
+description = "OVOS coreference solver"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [{name = "jarbasAi", email = "jarbasai@mailfence.com"}]
+requires-python = ">=3.10"
+dependencies = [
+    "spacy",
+    "coreferee",
+    "ovos-plugin-manager>=2.2.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/TigreGotico/ovos-coreferee-plugin"
+Repository = "https://github.com/TigreGotico/ovos-coreferee-plugin"
+
+[project.entry-points."intentbox.coreference"]
+ovos-coreferee-plugin = "ovos_coreferee.opm:CorefereeSolver"
+
+[project.entry-points."neon.plugin.text"]
+ovos-utterance-coreferee-normalizer = "ovos_coreferee.opm:CorefereeNormalizerPlugin"
+
+[project.entry-points."opm.triples"]
+ovos-spacy-triples-plugin = "ovos_coreferee.triples:SpacyTriplesExtractor"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["ovos_coreferee*"]
+
+[tool.setuptools.dynamic]
+version = {attr = "ovos_coreferee.version.__version__"}
