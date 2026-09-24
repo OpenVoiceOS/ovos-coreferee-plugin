@@ -1,18 +1,26 @@
 # Changelog
 
-## [0.1.1a1](https://github.com/TigreGotico/ovos-coreferee-plugin/tree/0.1.1a1) (2026-09-18)
+## [Unreleased](https://github.com/OpenVoiceOS/ovos-coreferee-plugin/tree/HEAD)
 
-[Full Changelog](https://github.com/TigreGotico/ovos-coreferee-plugin/compare/967135d8e860de4ff68465cc857afa5f23fb69a1...0.1.1a1)
-
-**Implemented enhancements:**
-
-- feat/dbpedia\_spotlight [\#2](https://github.com/TigreGotico/ovos-coreferee-plugin/pull/2) ([JarbasAl](https://github.com/JarbasAl))
-- feat/triples\_plugin [\#1](https://github.com/TigreGotico/ovos-coreferee-plugin/pull/1) ([JarbasAl](https://github.com/JarbasAl))
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-coreferee-plugin/compare/0.1.1a1...HEAD)
 
 **Merged pull requests:**
 
-- docs: rewrite README in Simplified Technical English [\#5](https://github.com/TigreGotico/ovos-coreferee-plugin/pull/5) ([JarbasAl](https://github.com/JarbasAl))
-- feat/semver [\#3](https://github.com/TigreGotico/ovos-coreferee-plugin/pull/3) ([JarbasAl](https://github.com/JarbasAl))
+- build: pyproject.toml only, and the plugin-manager floor with it [\#7](https://github.com/OpenVoiceOS/ovos-coreferee-plugin/pull/7) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
+## [0.1.1a1](https://github.com/OpenVoiceOS/ovos-coreferee-plugin/tree/0.1.1a1) (2026-09-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-coreferee-plugin/compare/967135d8e860de4ff68465cc857afa5f23fb69a1...0.1.1a1)
+
+**Implemented enhancements:**
+
+- feat/dbpedia\_spotlight [\#2](https://github.com/OpenVoiceOS/ovos-coreferee-plugin/pull/2) ([JarbasAl](https://github.com/JarbasAl))
+- feat/triples\_plugin [\#1](https://github.com/OpenVoiceOS/ovos-coreferee-plugin/pull/1) ([JarbasAl](https://github.com/JarbasAl))
+
+**Merged pull requests:**
+
+- docs: rewrite README in Simplified Technical English [\#5](https://github.com/OpenVoiceOS/ovos-coreferee-plugin/pull/5) ([JarbasAl](https://github.com/JarbasAl))
+- feat/semver [\#3](https://github.com/OpenVoiceOS/ovos-coreferee-plugin/pull/3) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
