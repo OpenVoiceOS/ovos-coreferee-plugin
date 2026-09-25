@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- ci: call the Build Tests workflow in OpenVoiceOS, not TigreGotico [\#8](https://github.com/OpenVoiceOS/ovos-coreferee-plugin/pull/8) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
 - build: pyproject.toml only, and the plugin-manager floor with it [\#7](https://github.com/OpenVoiceOS/ovos-coreferee-plugin/pull/7) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
 
 ## [0.1.1a1](https://github.com/OpenVoiceOS/ovos-coreferee-plugin/tree/0.1.1a1) (2026-09-18)
